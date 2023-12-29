@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 300px; /* Typically, popup width is set */
+  font-family: Arial, sans-serif;
+}
+
+#popup-content {
+  text-align: center;
+  padding: 20px;
+}
+
+#logo {
+  width: 50px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#start-capture-btn {
+  background-color: #4a3f91; /* Your button color */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+}
+
+#start-capture-btn:hover {
+  background-color: #37357a; /* Darker shade for hover effect */
+}
+
+#search-field {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: calc(100% - 20px); /* Full width minus padding */
+}
+
+.team-name {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.cta-text {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.cta-link {
+  color: #4a3f91; /* Same as button color for consistency */
+  text-decoration: none;
+  font-weight: bold;
+}

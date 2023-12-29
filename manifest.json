@@ -3,7 +3,7 @@
   "name": "ScreenScribe",
   "version": "1.0",
   "description": "A simple and efficient tab recording Chrome extension.",
-  "permissions": ["tabCapture", "storage"],
+  "permissions": ["tabCapture", "storage", "downloads"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
